@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentanaTarea1">
+
+    <TextView
+        android:id="@+id/Txtnumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="numero1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/campoNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Txtnumero1" />
+
+    <TextView
+        android:id="@+id/Txtnumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="numero2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoNumero1" />
+
+    <EditText
+        android:id="@+id/campoNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Txtnumero2" />
+
+    <TextView
+        android:id="@+id/TxtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resultado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoNumero2" />
+
+    <EditText
+        android:id="@+id/campoResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtResultado" />
+
+    <Button
+        android:id="@+id/btnMayor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mayor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoResultado" />
+
+    <Button
+        android:id="@+id/btnMenor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="menor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMayor" />
+
+    <Button
+        android:id="@+id/btnRaiz1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="raiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMenor" />
+
+    <Button
+        android:id="@+id/btnRaiz2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="raiz2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRaiz1" />
+
+    <Button
+        android:id="@+id/btnFuncion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="funcion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRaiz2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

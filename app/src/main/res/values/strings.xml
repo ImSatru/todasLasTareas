@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">todasLasTareas</string>
+    <string name="input_a">Digite un número (A)</string>
+    <string name="input_b">Digite otro número (B)</string>
+    <string name="result">Resultado</string>
+    <string name="sum">A + B</string>
+    <string name="subtract">A - B</string>
+    <string name="multiply">A × B</string>
+    <string name="divide">A ÷ B</string>
+    <string name="sqrt_a">√A</string>
+    <string name="sqrt_b">√B</string>
+    <string name="log_a">log(A)</string>
+    <string name="log_b">log(B)</string>
+    <string name="greater">Mayor</string>
+    <string name="lesser">Menor</string>
+    <string name="modulus">A % B</string>
+    <string name="power">A ^ B</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado:</string>
+    <string name="seleccionar_n_meros">Seleccionar números:</string>
+    <string name="checkboxA">A</string>
+    <string name="checkboxB">B</string>
+    <string name="checkboxC">C</string>
+    <string name="operaciones">Operaciones:</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multiplicaci_n">*\n</string>
+    <string name="divisi_n">/\n</string>
+</resources>
